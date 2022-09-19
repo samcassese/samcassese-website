@@ -8,7 +8,7 @@
 .topnav {
     display: flex;
     padding: 10px;
-    background-color: #003366;
+    background-color: #2493BC;
     justify-content: space-between;
     flex-shrink: 0.1; /* make the words in nav bar not break lines when shrunk */
 }
@@ -18,7 +18,7 @@
     margin-right: auto;
     text-decoration: none;
     font-size: 34px;
-    color: #99CC99;
+    color: #51E17E;
 }
 
 .navlinks {
@@ -40,4 +40,24 @@
     color: #e3e3e3;
     padding-right: 15px;
     padding-left: 15px;
+}
+
+body {
+    background: #1C3292;
+}
+
+h1 {
+    text-align: center;
+    font-size: 89px;
+    color: #CC9965;
+}
+
+h2 {
+    text-align: center;
+    font-size: 34px;
+    color: #e3e3e3;
+}
+
+strong {
+    font-weight: 900;
 }
