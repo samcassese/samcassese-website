@@ -42,9 +42,13 @@ nav {
     padding-left: 15px;
 }
 
-a:hover {
+nav a:hover {
     color: #EBF7E3;
     background-color: #3a7410;
+}
+
+a:hover {
+    background-color: #a8b99d;
 }
 
 body {
@@ -58,19 +62,37 @@ h1 {
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
     font-size: 34px;
-    color: #e3e3e3;
+    color: #5d7e46;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 p {
     color: #CC9965;
     text-align: left;
-    margin-left: 400px;
-    margin-right: 400px;
     font-size: 21px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.bulletpoints {
+    color: #CC9965;
+    text-align: left;
+    font-size: 21px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 1000;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 strong {
     font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    /* color: #CC9965; i dont know if i like the link color or an em tag for links */
 }
