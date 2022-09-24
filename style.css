@@ -96,3 +96,12 @@ a {
     text-decoration: none;
     /* color: #CC9965; i dont know if i like the link color or an em tag for links */
 }
+
+.centered {
+    text-align: center;
+}
+
+.no-link-decoration {
+    text-decoration: none;
+    color: inherit;
+}
