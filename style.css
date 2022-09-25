@@ -113,3 +113,10 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+.fit-pics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
